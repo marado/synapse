@@ -1,0 +1,3 @@
+This is the repository where code resides for the project of creating debian
+packages for synapse. All actual synapse code belongs upstream: check it out at
+http://www.ararat.cz/synapse/ .
