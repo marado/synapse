@@ -1,4 +1,4 @@
-Source: synapse
+Source: pascal-synapse
 Priority: extra
 Maintainer: Marcos Daniel Marado Torres <marado@isp.novis.pt>
 Build-Depends: debhelper (>= 7.0.50~), lcl-units, fp-units-fcl, libc6-i686, locales, fp-units-rtl, fp-compiler
@@ -6,16 +6,16 @@ Standards-Version: 3.8.4
 Section: libs
 Homepage: http://www.ararat.cz/synapse/
 
-Package: synapse-dev
+Package: pascal-synapse-dev
 Section: libdevel
 Architecture: any
-Depends: synapse1 (= ${binary:Version})
-Description: Synapse TCP/IP library
+Depends: pascal-synapse1 (= ${binary:Version})
+Description: Synapse TCP/IP library in Pascal
  syncronous TCP/IP library in Pascal
 
-Package: synapse1
+Package: pascal-synapse1
 Section: libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Synapse TCP/IP library
+Description: Synapse TCP/IP library in Pascal
  syncronous TCP/IP library in Pascal
