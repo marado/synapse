@@ -1,3 +1,8 @@
-This is the repository where code resides for the project of creating debian
-packages for synapse. All actual synapse code belongs upstream: check it out at
-http://www.ararat.cz/synapse/ .
+This is not the repository for synapse, this is the repository for the synapse
+debianization effort.
+
+You can get .deb files resulting from the code here seen at
+http://noori.abismo.org/debian/synapse/
+
+All actual synapse code belongs upstream: check it out at
+http://www.ararat.cz/synapse/ 
