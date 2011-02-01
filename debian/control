@@ -11,11 +11,17 @@ Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, pascal-synapse1 (= ${binary:Version})
 Description: Synapse TCP/IP library in Pascal dependency package
- syncronous TCP/IP library in Pascal dependency package
+ Synapse is a syncronous TCP/IP library in Pascal. pascal-synapse1 is a
+ dependency package, to install pascal-synapse1 which is the package that
+ actually has the libraries. 
 
 Package: pascal-synapse1
 Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}
 Description: Synapse TCP/IP library in Pascal
- syncronous TCP/IP library in Pascal
+ Synapse is a syncronous TCP/IP library in Pascal. pascal-synapse1 is the
+ package that has the actual libraries. After its installation, you'll find the
+ libraries at /usr/lib/synapse/, and you will be able to include them in with
+ fpc by compiling with -Fu/usr/lib/synapse/. . You might need this package not
+ only to develop, but to use other software that uses this library.
