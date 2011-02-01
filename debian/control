@@ -14,8 +14,7 @@ Description: Synapse TCP/IP library in Pascal
  syncronous TCP/IP library in Pascal
 
 Package: pascal-synapse1
-Section: libs
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}
 Description: Synapse TCP/IP library in Pascal
  syncronous TCP/IP library in Pascal
