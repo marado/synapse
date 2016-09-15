@@ -1,7 +1,7 @@
 Source: pascal-synapse
 Priority: extra
 Maintainer: Marcos Daniel Marado Torres <marado@isp.novis.pt>
-Build-Depends: debhelper (>= 7.0.50~), lcl-units, fp-units-fcl, libc6-i686, locales, fp-units-rtl, fp-compiler
+Build-Depends: debhelper (>= 7.0.50~), lcl-units, fp-units-fcl, libc6-i686:i386, locales, fp-units-rtl, fp-compiler
 Standards-Version: 3.9.1
 Section: libs
 Homepage: http://www.ararat.cz/synapse/

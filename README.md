@@ -5,4 +5,4 @@ You can get .deb files resulting from the code here seen at
 http://noori.abismo.org/debian/synapse/
 
 All actual synapse code belongs upstream: check it out at
-http://www.ararat.cz/synapse/ 
+http://www.ararat.cz/synapse/
